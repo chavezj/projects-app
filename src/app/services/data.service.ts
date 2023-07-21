@@ -8,5 +8,11 @@ import { Observable } from 'rxjs';
 @Injectable({providedIn: 'root'})
 export class DataService {
     constructor(private httpClient: HttpClient) { }
+
+    getData(file: string): Observable<any> {
+        return this.httpClient.get(file).pipe(map((response: any) =>
+          response
+        ));
+      }
     
 }
