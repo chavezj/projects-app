@@ -5,17 +5,43 @@
       {
         "name": "Swift UI Training",
         "progress": "10%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "3"
       },
       {
         "name": "Identity Server / Duende",
         "progress": "0%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "2"
       },
       {
         "name": "FHRP Web API to .NET Core 6",
         "progress": "0%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "1"
+      }
+    ]
+  },
+  {
+    "status": "On-hold",
+    "projects": [
+      {
+        "name": "TeleStaff Upgrade",
+        "progress": "0%",
+        "date_completed": "",
+        "order": "3"
+      },
+      {
+        "name": "FHRP Identity Server 4",
+        "progress": "100%",
+        "date_completed": "",
+        "order": "2"
+      },
+      {
+        "name": "PowerBI Reverse Proxy",
+        "progress": "85%",
+        "date_completed": "",
+        "order": "1"
       }
     ]
   },
@@ -23,14 +49,22 @@
     "status": "Upcoming",
     "projects": [
       {
+        "name": "Kronos SFTP Update",
+        "progress": "0%",
+        "date_completed": "",
+        "order": "3"
+      },
+      {
         "name": "Modernize BYOD vCAD with Swift",
         "progress": "0%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "1"
       },
       {
         "name": "TeleStaff migration to Google Cloud",
         "progress": "0%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "2"
       }
     ]
   },
@@ -40,38 +74,44 @@
       {
         "name": "Fleetfocus 22.1.2.1. Upgrade",
         "progress": "99%",
-        "date_completed": "07/19/2023"
+        "date_completed": "07/19/2023",
+        "order": "7"
       },
       {
         "name": "Modernize vCAD with Swift",
         "progress": "99%",
-        "date_completed": ""
-      }
-      ,
+        "date_completed": "",
+        "order": "6"
+      },
       {
         "name": "vCAD IDP Upgrade 3 to 4",
         "progress": "99%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "5"
       },
       {
         "name": "vCAD Web API to .NET Core 6",
         "progress": "99%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "4"
       },
       {
         "name": "FHRP Mobile App Rewrite",
         "progress": "5%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "3"
       },
       {
         "name": "Knoxbox Website Migration",
         "progress": "90%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "2"
       },
       {
         "name": "Windows Server 2012 Upgrades",
         "progress": "90%",
-        "date_completed": ""
+        "date_completed": "",
+        "order": "1"
       }
     ]
   },
@@ -81,122 +121,146 @@
       {
         "name": "Everbridge Setup",
         "progress": "100%",
-        "date_completed": "09/01/2022"
+        "date_completed": "09/01/2022",
+        "order": "1"
       },
       {
         "name": "Reach Device Setup",
         "progress": "100%",
-        "date_completed": "10/15/2022"
+        "date_completed": "10/15/2022",
+        "order": "2"
       },
       {
         "name": "Blue vCAD Provisioning",
         "progress": "100%",
-        "date_completed": "12/15/2022"
+        "date_completed": "12/15/2022",
+        "order": "3"
       },
       {
         "name": "Inspection App Provisioning",
         "progress": "100%",
-        "date_completed": "12/19/2022"
+        "date_completed": "12/19/2022",
+        "order": "4"
       },
       {
         "name": "New Logo Updates",
         "progress": "100%",
-        "date_completed": "01/15/2023"
+        "date_completed": "01/15/2023",
+        "order": "5"
       },
       {
         "name": "Kronos 2.0 Setup",
         "progress": "100%",
-        "date_completed": "03/30/2023"
+        "date_completed": "03/30/2023",
+        "order": "6"
       },
       {
         "name": "RTF-7 Roster Updates",
         "progress": "100%",
-        "date_completed": "04/01/2022"
+        "date_completed": "04/01/2022",
+        "order": "7"
       },
       {
         "name": "STEN Roster Updates",
         "progress": "100%",
-        "date_completed": "04/25/2022"
+        "date_completed": "04/25/2022",
+        "order": "8"
       },
       {
         "name": "Flag Webpart Fix",
         "progress": "100%",
-        "date_completed": "08/05/2022"
+        "date_completed": "08/05/2022",
+        "order": "9"
       },
       {
         "name": "FHRP Web API to .NET 4.8",
         "progress": "100%",
-        "date_completed": "09/15/2022"
+        "date_completed": "09/15/2022",
+        "order": "10"
       },
       {
         "name": "FHRP Angular to v12.0.4",
         "progress": "100%",
-        "date_completed": "12/08/2022"
+        "date_completed": "12/08/2022",
+        "order": "15"
       },
       {
         "name": "TeleStaff DR Plan",
         "progress": "100%",
-        "date_completed": "10/15/2022"
+        "date_completed": "10/15/2022",
+        "order": "13"
       },
       {
         "name": "FHRP Receipts upgrade/migration",
         "progress": "100%",
-        "date_completed": "09/20/2022"
+        "date_completed": "09/20/2022",
+        "order": "11"
       },
       {
         "name": "VCHRP/TeleStaff FTP host change",
         "progress": "100%",
-        "date_completed": "09/26/2022"
+        "date_completed": "09/26/2022",
+        "order": "12"
       },
       {
         "name": "SSL Updates",
         "progress": "100%",
-        "date_completed": "11/01/2022"
+        "date_completed": "11/01/2022",
+        "order": "14"
       },
       {
         "name": "Skedda ADFS Setup",
         "progress": "100%",
-        "date_completed": "02/05/2023"
+        "date_completed": "02/05/2023",
+        "order": "16"
       },
       {
         "name": "FHRP D-Areas Project",
         "progress": "100%",
-        "date_completed": "02/14/2023"
+        "date_completed": "02/14/2023",
+        "order": "28"
       },
       {
         "name": "FleetFocus License Key Update",
         "progress": "100%",
-        "date_completed": "06/30/2023"
+        "date_completed": "06/30/2023",
+        "order": "31"
       },
       {
         "name": "Knox CSR and SSL Install",
         "progress": "100%",
-        "date_completed": "02/05/2023"
+        "date_completed": "02/05/2023",
+        "order": "25"
       },
       {
         "name": "vCAD BYOD Provisioning",
         "progress": "100%",
-        "date_completed": "02/14/2023"
+        "date_completed": "02/14/2023",
+        "order": "27"
       },
       {
         "name": "FHPR/Inspector Apps Provisioning",
         "progress": "100%",
-        "date_completed": "06/30/2023"
+        "date_completed": "06/30/2023",
+        "order": "32"
       },
       {
         "name": "vCAD Contacts Project",
         "progress": "100%",
-        "date_completed": "02/05/2023"
+        "date_completed": "02/05/2023",
+        "order": "26"
       },
       {
         "name": "FireFeeds to .Net Core 6",
         "progress": "100%",
-        "date_completed": "06/01/2023"
+        "date_completed": "06/01/2023",
+        "order": "29"
       },
       {
         "name": "Modernized vCAD Test Plan",
         "progress": "100%",
-        "date_completed": "06/06/2023"
+        "date_completed": "06/06/2023",
+        "order": "30"
       }
     ]
   }

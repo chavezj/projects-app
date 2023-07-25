@@ -14,6 +14,7 @@ export class AppComponent {
   constructor(public main: DataService) {
 
       this.main.getData('./assets/myprojectstatus.json').subscribe(data=> {
+       // let sortedData = data.sort((a,b)=>b.date_completed, a.date_completed)
         this.projects = data;
         console.log(this.projects);
       })

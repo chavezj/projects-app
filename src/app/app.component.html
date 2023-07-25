@@ -1,17 +1,17 @@
 
-<div class="container-fluid">
+<div class="container-fluid " >
   <br/>
-  <div class="card">
+  <div class="card bg-background">
     <div class="card-body text-center">
-      <h2> Joe's Current Projects</h2>
+      <h2 style="color: #fff;"> Joe's Current Projects</h2>
   </div>
   
   </div>
-<div class="table-responsive text-center">
+<div class="table-responsive text-center ">
 <table class="table ">
   <thead>
   <tr>
-   <th scope="col">Backlog</th><th scope="col">Upcoming</th><th scope="col">In-Progress</th><th scope="col">Completed</th>
+   <th scope="col">Backlog</th><th scope="col">Upcoming</th><th scope="col">In-Progress</th><th scope="col">Completed</th><th scope="col">On-Hold</th>
    </tr>
   </thead>
   <tbody>
@@ -21,7 +21,7 @@
         <tr *ngFor="let u of projects">
           <td *ngIf="u.status == 'Backlog'" >
   
-            <ul class="list-group" *ngFor="let p of u.projects">
+            <ul class="list-group" *ngFor="let p of u.projects | orderBy3:'order':'desc'">
               <li class="list-group-item list-group-item-dark"> {{p.name}} - {{p.progress}} <br *ngIf="p.date_completed != ''"/><span *ngIf="p.date_completed != ''">{{p.date_completed}}</span></li>
             </ul>
        
@@ -29,12 +29,13 @@
         </tr>
       </table>
     </td>
+    
     <td>
         <table class="table">
           <tr *ngFor="let u of projects">
             <td *ngIf="u.status == 'Upcoming'" >
     
-              <ul class="list-group" *ngFor="let p of u.projects">
+              <ul class="list-group" *ngFor="let p of u.projects | orderBy3:'order':'desc'">
                 <li class="list-group-item list-group-item-warning"> {{p.name}} - {{p.progress}} <br *ngIf="p.date_completed != ''"/><span *ngIf="p.date_completed != ''">{{p.date_completed}}</span></li>
         
               </ul>
@@ -49,7 +50,7 @@
         <tr *ngFor="let u of projects">
           <td *ngIf="u.status == 'In-Progress'" >
   
-            <ul class="list-group" *ngFor="let p of u.projects">
+            <ul class="list-group" *ngFor="let p of u.projects | orderBy3:'order':'desc'">
               <li class="list-group-item list-group-item-primary"> {{p.name}} - {{p.progress}} <br *ngIf="p.date_completed != ''"/><span *ngIf="p.date_completed != ''">{{p.date_completed}}</span></li>
             </ul>
        
@@ -62,10 +63,10 @@
   
     <td>
       <table class="table">
-        <tr *ngFor="let u of projects">
+        <tr *ngFor="let u of projects ">
           <td *ngIf="u.status == 'Completed'" >
   
-            <ul class="list-group" *ngFor="let p of u.projects">
+            <ul class="list-group" *ngFor="let p of u.projects | orderBy3:'order':'desc'">
               <li class="list-group-item list-group-item-success"> {{p.name}} - {{p.progress}} <br *ngIf="p.date_completed != ''"/><span *ngIf="p.date_completed != ''">{{p.date_completed}}</span></li>
             </ul>
        
@@ -74,6 +75,21 @@
       </table>
 
     </td>
+
+    <td>
+      <table class="table">
+        <tr *ngFor="let u of projects">
+          <td *ngIf="u.status == 'On-hold'" >
+  
+            <ul class="list-group" *ngFor="let p of u.projects | orderBy3:'order':'desc'">
+              <li class="list-group-item list-group-item-dark"> {{p.name}} - {{p.progress}} <br *ngIf="p.date_completed != ''"/><span *ngIf="p.date_completed != ''">{{p.date_completed}}</span></li>
+            </ul>
+       
+          </td>
+        </tr>
+      </table>
+    </td>
+
   </tr>
   </tbody>
 </table>
